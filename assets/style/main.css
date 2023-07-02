@@ -1,0 +1,109 @@
+main {
+    background-color: var(--white);
+}
+
+.container__section {
+    padding: 0 2em 0 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vr__image {
+    width: 100%;
+}
+
+.section__tittle {
+    padding: 1.5em 0 .65em 0;
+    color: var(--black);
+    font-family: var(--font-tittle);
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+
+.section__text {
+    color: var(--verydarkgray);
+    font-family: var(--font-text);
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.second__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deepearth {
+    background-image: url("../img/mobile/image-deep-earth.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 315px;
+    height: 120px;
+    margin-bottom: 1.75em;
+}
+
+.nightarcade {
+    background-image: url("../img/mobile/image-night-arcade.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 315px;
+    height: 120px;
+    margin-bottom: 1.75em;
+}
+
+.soccerteam {
+    background-image: url("../img/mobile/image-soccer-team.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 315px;
+    height: 120px;
+    margin-bottom: 1.75em;
+}
+
+.thegrid {
+    background-image: url("../img/mobile/image-grid.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 315px;
+    height: 120px;
+    margin-bottom: 1.75em;
+}
+
+.fromup {
+    background-image: url("../img/mobile/image-from-above.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 315px;
+    height: 120px;
+    margin-bottom: 1.75em;
+}
+
+.pocketborealis {
+    background-image: url("../img/mobile/image-pocket-borealis.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 315px;
+    height: 120px;
+    margin-bottom: 1.75em;
+}
+
+.thecuriosity {
+    background-image: url("../img/mobile/image-curiosity.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 315px;
+    height: 120px;
+    margin-bottom: 1.75em;
+}
+
+.makeit {
+    background-image: url("../img/mobile/image-fisheye.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 315px;
+    height: 120px;
+    margin-bottom: 1.75em;
+}
