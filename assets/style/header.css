@@ -10,6 +10,16 @@ header {
     
 }
 
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header__list {
+    display: none;
+}
+
 .tittle__container {
     border-width: 2px;
     border-style: solid;
