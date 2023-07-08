@@ -13,8 +13,8 @@ header {
 .header__container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-
 
 .header__list {
     display: none;
@@ -24,6 +24,7 @@ header {
     border-width: 2px;
     border-style: solid;
     border-color: var(--white);
+    margin-top: 8em;
 }
 
 .principal__tittle {
@@ -33,4 +34,19 @@ header {
     text-align: left;
     padding: .75em .75em .75em .75em;
     text-transform: uppercase;
+}
+
+.hamburger__menu {
+    background-image: url("../icons/icon-hamburger.svg");
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    margin-top: 1em;
+    
+}
+
+.checkbox__container {
+    display: none;
 }
