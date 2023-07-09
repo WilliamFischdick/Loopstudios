@@ -7,6 +7,14 @@ body {
     font-size: 15px;
 }
 
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 :root {
     
     /*Colors*/

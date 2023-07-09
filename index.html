@@ -1,23 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/style/reset.css">
-    <link rel="stylesheet" href="assets/style/style.css">
-    <title>Loopstudios</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style/reset.css">
+  <link rel="stylesheet" href="assets/style/style.css">
+  <title>Loopstudios</title>
 </head>
 <body>
-    <header>
-        <div class="header__container">
+	<header>
+		<img src="assets/icons/logo.svg" alt="Logo Loopstudios" class="logo">
+    <nav class="navbar">
+      <ul class="nav__menu">
+        <li class="nav__item">
+          <a href="#" class="nav__link">
+            About
+          </a> 
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">
+            Careers
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">
+            Events
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">
+            Products
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">
+            Support
+          </a>
+        </li>
+      </ul>
+			<div class="hamburger">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+    </nav>
+    
+      
+		<!--
+    <div class="header__container">
             <img src="assets/icons/logo.svg" alt="Logo Loopstudios" class="logo">
             
             <input type="checkbox" id="menu" class="checkbox__container">
             <label for="menu" class="container__tag"><span class="hamburger__menu"></span></label>
-            <!-- Procurar um modo de fazer menu hamburguer-->
+            
 
             <ul class="header__list">
                 <li class="header__links">
@@ -47,6 +85,8 @@
                 </li>
             </ul>
         </div>
+			-->
+
         <div class="tittle__container">
             <h1 class="principal__tittle">Immersive <br> Experiences <br> That <br> Deliver</h1>
         </div>
@@ -162,6 +202,6 @@
         </div>
         <span class="copyright">© 2021 Loopstudios. All rights reserved.</span>
     </footer>
-    
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
