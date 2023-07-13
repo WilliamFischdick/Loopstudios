@@ -53,7 +53,7 @@ header {
     padding: 2em 0 0 2em;
 }
 .last__item {
-    margin-bottom: 2em;
+    margin-bottom: 5em;
 }
 
 .nav__link {
@@ -88,10 +88,10 @@ header {
 .nav__menu.active {
     left: 0;
 }
-.navbar.active {
+header.active {
     background-color: var(--black);
-    transition: 0.3s;
-    padding: 0;
+    background-image: none;
+    transition: 0.5s;
 }
 
 /*
