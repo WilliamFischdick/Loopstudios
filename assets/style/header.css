@@ -52,6 +52,7 @@ header {
 .nav__item {
     padding: 2em 0 0 2em;
 }
+
 .last__item {
     margin-bottom: 5em;
 }
@@ -88,52 +89,13 @@ header {
 .nav__menu.active {
     left: 0;
 }
+
 header.active {
     background-color: var(--black);
     background-image: none;
     transition: 0.5s;
 }
 
-/*
-.header__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header__list {
-    display: none;
-}
-
-.tittle__container {
-    border-width: 2px;
-    border-style: solid;
-    border-color: var(--white);
-    margin-top: 8em;
-}
-
-.principal__tittle {
-    color: var(--white);
-    font-family: var(--font-tittle);
-    font-size: 35px;
-    text-align: left;
-    padding: .75em .75em .75em .75em;
-    text-transform: uppercase;
-}
-
-.hamburger__menu {
-    background-image: url("../icons/icon-hamburger.svg");
-    width: 24px;
-    height: 24px;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: inline-block;
-    margin-top: 1em;
+@media screen and (min-width: 1440px) {
     
-}
-
-.checkbox__container {
-    display: none;
-}
-*/
-
+} 
