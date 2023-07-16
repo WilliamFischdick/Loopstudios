@@ -97,5 +97,29 @@ header.active {
 }
 
 @media screen and (min-width: 1440px) {
-    
+    .hamburger {
+        display: none;
+    }
+
+    .nav__menu {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        left: 65%;
+        top: 10px;
+        background-color: transparent;
+        width: 100%;
+    }
+
+    .nav__link {
+        font-size: 20px;
+        text-transform: initial;
+    }
+
+    header {
+      background-image: url("../img/desktop/image-hero.jpg");
+      background-repeat: no-repeat; 
+      background-size: contain; 
+      width: 200%;
+    }
 } 
