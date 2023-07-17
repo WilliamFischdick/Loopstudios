@@ -106,7 +106,7 @@ header.active {
         flex-direction: row;
         position: absolute;
         left: 65%;
-        top: 10px;
+        top: 85px;
         background-color: transparent;
         width: 100%;
     }
@@ -119,5 +119,15 @@ header.active {
     header {
       background-image: url("../img/desktop/image-hero.jpg");
       background-repeat: no-repeat; 
+      padding: 5em 15em 0 15em;
+    }
+
+    .tittle__container {
+        width: 600px;
+        height: 300px;
+    }
+
+    .principal__tittle {
+        font-size: 60px;
     }
 } 
