@@ -106,14 +106,15 @@ header.active {
         flex-direction: row;
         position: absolute;
         left: 65%;
-        top: 85px;
+        top: 95px;
         background-color: transparent;
         width: 100%;
     }
 
     .nav__link {
-        font-size: 20px;
+        font-size: 23px;
         text-transform: initial;
+        font-family: var(--font-text);
     }
 
     header {
@@ -129,5 +130,9 @@ header.active {
 
     .principal__tittle {
         font-size: 60px;
+    }
+
+    .logo {
+        width: 300px;
     }
 } 

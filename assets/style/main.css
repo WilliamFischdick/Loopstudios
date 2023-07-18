@@ -16,6 +16,14 @@ main {
     width: 100%;
 }
 
+.vr__image-desktop {
+    display: none;
+}
+
+.section__desktop {
+    display: none;
+}
+
 .section__tittle {
     padding: 1.5em 0 .65em 0;
     color: var(--black);
@@ -146,5 +154,20 @@ main {
 
 
 @media screen and (min-width: 1440px) {
-    
+    .vr__image {
+        display: none;
+    }
+
+    .vr__image-desktop {
+        display: block;
+    }
+
+    .second__section {
+        display: none;
+    }
+
+    .section__desktop {
+        display: block;
+    }
+
 }
