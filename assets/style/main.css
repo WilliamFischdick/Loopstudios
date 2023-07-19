@@ -160,6 +160,8 @@ main {
 
     .vr__image-desktop {
         display: block;
+        position: relative;
+        left: -230px;
     }
 
     .second__section {
@@ -168,6 +170,25 @@ main {
 
     .section__desktop {
         display: block;
+    }
+
+    .text__container {
+        width: 500px;
+        position: absolute;
+        left: 900px;
+        top: 978px;
+        background-color: var(--white);
+        padding: 1em 0 0 7em;
+    }
+
+    .section__tittle {
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .section__text {
+        font-size: 20px;
+        text-align: left;
     }
 
 }
