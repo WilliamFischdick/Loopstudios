@@ -154,7 +154,10 @@ main {
 
 
 @media screen and (min-width: 1440px) {
-    .vr__image {
+    .vr__image,
+    .second__section,
+    .button__container,
+    .button {
         display: none;
     }
 
@@ -162,10 +165,6 @@ main {
         display: block;
         position: relative;
         left: -230px;
-    }
-
-    .second__section {
-        display: none;
     }
 
     .section__desktop {
@@ -191,4 +190,8 @@ main {
         text-align: left;
     }
 
+    .container__desktop {
+        display: flex;
+        
+    }
 }
