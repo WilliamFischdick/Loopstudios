@@ -208,6 +208,9 @@ main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        row-gap: 1em;
+        column-gap: 0;
 
     }
 
@@ -240,5 +243,69 @@ main {
         font-weight: bold;
         letter-spacing: 3px;
 
+    }
+
+    .desktop__deepearth {
+        background-image: url("../img/desktop/image-deep-earth.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 256px;
+        height: 450px;
+    }
+
+    .desktop__nightarcade {
+        background-image: url("../img/desktop/image-night-arcade.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 256px;
+        height: 450px;
+    }
+
+    .desktop__soccerteam {
+        background-image: url("../img/desktop/image-soccer-team.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 256px;
+        height: 450px;
+    }
+
+    .desktop__thegrid {
+        background-image: url("../img/desktop/image-grid.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 256px;
+        height: 450px;
+    }
+
+    .desktop__fromup {
+        background-image: url("../img/desktop/image-from-above.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 256px;
+        height: 450px;
+    }
+
+    .desktop__pocketborealis {
+        background-image: url("../img/desktop/image-pocket-borealis.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 256px;
+        height: 450px;
+    }
+
+    .desktop__thecuriosity {
+        background-image: url("../img/desktop/image-curiosity.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 256px;
+        height: 450px;
+    }
+
+    .desktop__makeit {
+        background-image: url("../img/desktop/image-fisheye.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 256px;
+        height: 450px;
     }
 }
