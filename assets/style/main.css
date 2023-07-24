@@ -170,6 +170,7 @@ main {
     .section__desktop {
         display: block;
         width: 100%;
+        margin-bottom: 15em;
     }
 
     .text__container {
@@ -203,14 +204,13 @@ main {
         padding: 0 15em 0 15em;
     }
 
-
     .desktop__list {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 256px 256px 256px 256px;
         grid-template-rows: 1fr 1fr;
-        justify-items: center;
+        justify-content: center;
         row-gap: 1em;
-        column-gap: 0;
+        column-gap: 1em;
 
     }
 
@@ -251,6 +251,8 @@ main {
         background-size: cover;
         width: 256px;
         height: 450px;
+        display: flex;
+        align-items: flex-end;
     }
 
     .desktop__nightarcade {
@@ -259,6 +261,8 @@ main {
         background-size: cover;
         width: 256px;
         height: 450px;
+        display: flex;
+        align-items: flex-end;
     }
 
     .desktop__soccerteam {
@@ -267,6 +271,8 @@ main {
         background-size: cover;
         width: 256px;
         height: 450px;
+        display: flex;
+        align-items: flex-end;
     }
 
     .desktop__thegrid {
@@ -275,6 +281,8 @@ main {
         background-size: cover;
         width: 256px;
         height: 450px;
+        display: flex;
+        align-items: flex-end;
     }
 
     .desktop__fromup {
@@ -283,6 +291,8 @@ main {
         background-size: cover;
         width: 256px;
         height: 450px;
+        display: flex;
+        align-items: flex-end;
     }
 
     .desktop__pocketborealis {
@@ -291,6 +301,8 @@ main {
         background-size: cover;
         width: 256px;
         height: 450px;
+        display: flex;
+        align-items: flex-end;
     }
 
     .desktop__thecuriosity {
@@ -299,6 +311,8 @@ main {
         background-size: cover;
         width: 256px;
         height: 450px;
+        display: flex;
+        align-items: flex-end;
     }
 
     .desktop__makeit {
@@ -307,5 +321,18 @@ main {
         background-size: cover;
         width: 256px;
         height: 450px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .desktop__link {
+        text-transform: uppercase;
+        font-size: 30px;
+        color: var(--white);
+        font-family: var(--font-tittle);
+        padding: 0 0 1.5em 1.5em;
+        
+        
+
     }
 }
