@@ -90,84 +90,52 @@
 
     }
 
-    .desktop__deepearth {
-        background-image: url("../img/desktop/image-deep-earth.jpg");
+    .desktop__deepearth,
+    .desktop__nightarcade,
+    .desktop__soccerteam,
+    .desktop__thegrid,
+    .desktop__fromup,
+    .desktop__pocketborealis,
+    .desktop__thecuriosity,
+    .desktop__makeit {
         background-repeat: no-repeat;
         background-size: cover;
         width: 256px;
         height: 450px;
         display: flex;
         align-items: flex-end;
+    }
+
+    .desktop__deepearth {
+        background-image: url("../img/desktop/image-deep-earth.jpg");
     }
 
     .desktop__nightarcade {
         background-image: url("../img/desktop/image-night-arcade.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 256px;
-        height: 450px;
-        display: flex;
-        align-items: flex-end;
     }
 
     .desktop__soccerteam {
         background-image: url("../img/desktop/image-soccer-team.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 256px;
-        height: 450px;
-        display: flex;
-        align-items: flex-end;
     }
 
     .desktop__thegrid {
         background-image: url("../img/desktop/image-grid.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 256px;
-        height: 450px;
-        display: flex;
-        align-items: flex-end;
     }
 
     .desktop__fromup {
         background-image: url("../img/desktop/image-from-above.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 256px;
-        height: 450px;
-        display: flex;
-        align-items: flex-end;
     }
 
     .desktop__pocketborealis {
         background-image: url("../img/desktop/image-pocket-borealis.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 256px;
-        height: 450px;
-        display: flex;
-        align-items: flex-end;
     }
 
     .desktop__thecuriosity {
         background-image: url("../img/desktop/image-curiosity.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 256px;
-        height: 450px;
-        display: flex;
-        align-items: flex-end;
     }
 
     .desktop__makeit {
         background-image: url("../img/desktop/image-fisheye.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 256px;
-        height: 450px;
-        display: flex;
-        align-items: flex-end;
     }
 
     .desktop__link {
@@ -176,8 +144,5 @@
         color: var(--white);
         font-family: var(--font-tittle);
         padding: 0 0 1.5em 1.5em;
-        
-        
-
     }
 }
