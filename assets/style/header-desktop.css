@@ -17,6 +17,14 @@
         font-size: 23px;
         text-transform: initial;
         font-family: var(--font-text);
+        transition: .5s;
+    }
+
+    .nav__link:hover {
+        color: var(--darkblue);
+        border-bottom: 2px solid;
+        border-radius: 5px;
+        border-color: var(--darkblue);
     }
 
     header {
