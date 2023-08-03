@@ -27,6 +27,11 @@ footer {
 .link__footer {
     color: var(--white);
     font-family: var(--font-text);
+    transition: .5s;
+}
+
+.link__footer:hover {
+    border-bottom: 2px solid;
 }
 
 .icons__container {
